@@ -1,10 +1,10 @@
 import React from 'react';
-import { PokeCard } from './PokeCard.jsx';
+import { Pokedex } from './Pokedex.jsx';
 
 function App() {
   return (
     <div>
-      <PokeCard />
+      <Pokedex />
     </div>
   );
 }

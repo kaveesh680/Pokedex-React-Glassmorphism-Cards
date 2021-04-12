@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 *
 {
     margin: 0;
     padding: 0;
-    font-family: 'poppins',sans-serif;
+    font-family: 'Indie Flower', cursive;
 }
 
 body{
@@ -22,21 +23,22 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 40px 0;
+    
 }
 
 .container .card{
     position: relative;
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 350px;
     background: rgba(255,255,255,0.05);
-    margin: 20px;
     box-shadow: 0 15px 35px rgba(0,0,0,0.2);
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px;
     backdrop-filter: blur(10px);
+    
 }
 
 .container .card .content{
@@ -55,10 +57,10 @@ body{
 }
 
 .container .card .content .contentBox h3{
-    color: #fff;
+    color:black;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-weight: 500;
+    font-weight: 1000;
     font-size: 18px;
     text-align: center;
     margin: 20px 0 10px;
@@ -67,6 +69,19 @@ body{
 
 .container .card .content .contentBox h3 span{
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 400;
     text-transform: initial;
+}
+
+.header{
+    align-items: center;
+    text-align: center;
+    color:black;
+    font-size: 50px;
+    font-weight: 600;
+}
+.Pokedex-Card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
 }
