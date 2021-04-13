@@ -85,3 +85,10 @@ body{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     
 }
+
+.winning-status{
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 45px;
+}
